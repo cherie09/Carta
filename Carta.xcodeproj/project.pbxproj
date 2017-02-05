@@ -12,6 +12,12 @@
 		3E57504A1E44C944005B8580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5750481E44C944005B8580 /* Main.storyboard */; };
 		3E57504C1E44C944005B8580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E57504B1E44C944005B8580 /* Assets.xcassets */; };
 		3E57504F1E44C944005B8580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E57504D1E44C944005B8580 /* LaunchScreen.storyboard */; };
+		3E5750571E478A9D005B8580 /* おねむ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5750561E478A9D005B8580 /* おねむ.png */; };
+		3E57505B1E47D0E2005B8580 /* みみあて.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5750581E47D0E2005B8580 /* みみあて.png */; };
+		3E57505C1E47D0E2005B8580 /* あおむけ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5750591E47D0E2005B8580 /* あおむけ.png */; };
+		3E57505D1E47D0E2005B8580 /* M.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505A1E47D0E2005B8580 /* M.png */; };
+		3E5750601E47D41E005B8580 /* こうばこ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505E1E47D41E005B8580 /* こうばこ.png */; };
+		3E5750611E47D41E005B8580 /* ひまわり.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505F1E47D41E005B8580 /* ひまわり.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		3E57504B1E44C944005B8580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E57504E1E44C944005B8580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5750501E44C944005B8580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5750561E478A9D005B8580 /* おねむ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おねむ.png"; sourceTree = "<group>"; };
+		3E5750581E47D0E2005B8580 /* みみあて.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "みみあて.png"; sourceTree = "<group>"; };
+		3E5750591E47D0E2005B8580 /* あおむけ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "あおむけ.png"; sourceTree = "<group>"; };
+		3E57505A1E47D0E2005B8580 /* M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = M.png; sourceTree = "<group>"; };
+		3E57505E1E47D41E005B8580 /* こうばこ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "こうばこ.png"; sourceTree = "<group>"; };
+		3E57505F1E47D41E005B8580 /* ひまわり.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ひまわり.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,9 @@
 		3E5750381E44C943005B8580 = {
 			isa = PBXGroup;
 			children = (
+				3E5750581E47D0E2005B8580 /* みみあて.png */,
+				3E5750591E47D0E2005B8580 /* あおむけ.png */,
+				3E57505A1E47D0E2005B8580 /* M.png */,
 				3E5750431E44C944005B8580 /* Carta */,
 				3E5750421E44C944005B8580 /* Products */,
 			);
@@ -54,9 +69,12 @@
 		3E5750431E44C944005B8580 /* Carta */ = {
 			isa = PBXGroup;
 			children = (
+				3E5750561E478A9D005B8580 /* おねむ.png */,
 				3E5750441E44C944005B8580 /* AppDelegate.swift */,
 				3E5750461E44C944005B8580 /* ViewController.swift */,
 				3E5750481E44C944005B8580 /* Main.storyboard */,
+				3E57505E1E47D41E005B8580 /* こうばこ.png */,
+				3E57505F1E47D41E005B8580 /* ひまわり.png */,
 				3E57504B1E44C944005B8580 /* Assets.xcassets */,
 				3E57504D1E44C944005B8580 /* LaunchScreen.storyboard */,
 				3E5750501E44C944005B8580 /* Info.plist */,
@@ -123,9 +141,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5750611E47D41E005B8580 /* ひまわり.png in Resources */,
+				3E5750601E47D41E005B8580 /* こうばこ.png in Resources */,
+				3E57505C1E47D0E2005B8580 /* あおむけ.png in Resources */,
 				3E57504F1E44C944005B8580 /* LaunchScreen.storyboard in Resources */,
+				3E5750571E478A9D005B8580 /* おねむ.png in Resources */,
+				3E57505B1E47D0E2005B8580 /* みみあて.png in Resources */,
 				3E57504C1E44C944005B8580 /* Assets.xcassets in Resources */,
 				3E57504A1E44C944005B8580 /* Main.storyboard in Resources */,
+				3E57505D1E47D0E2005B8580 /* M.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

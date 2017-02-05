@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var images : [String] = ["みみあて.png","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png"]
+    @IBOutlet var imageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
