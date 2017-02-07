@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var number : Int = 0
     var images : [String] = ["みみあて.png","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png","M.png"]
     
     @IBOutlet var label: UILabel!
@@ -48,20 +47,14 @@ class ViewController: UIViewController {
     
     @IBAction func changeImage () {
        
-        imageView0.image = UIImage(named:images[number])
-        imageView1.image = UIImage(named: images[number])
-        imageView2.image = UIImage(named: images[number])
-        imageView3.image = UIImage(named: images[number])
-        imageView4.image = UIImage(named: images[number])
-        imageView5.image = UIImage(named: images[number])
+        imageView0.image = UIImage(named:images[Int(arc4random_uniform(UInt32(images.count)))])
+        imageView1.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        imageView2.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        imageView3.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        imageView4.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        imageView5.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
         
-         label.text = String (number)
-        
-         number = number + 1
-        if number == images.count {
-            number = 0
-        }
-    }
+            }
 
     
     
