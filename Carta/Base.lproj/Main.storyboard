@@ -21,35 +21,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="あおむけ.png" translatesAutoresizingMaskIntoConstraints="NO" id="QNc-hh-hob">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNc-hh-hob">
                                 <rect key="frame" x="148" y="127" width="78" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="おねむ.png" translatesAutoresizingMaskIntoConstraints="NO" id="PKW-1r-Nec">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKW-1r-Nec">
                                 <rect key="frame" x="40" y="127" width="78" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="みみあて.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rv2-xT-CLc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rv2-xT-CLc">
                                 <rect key="frame" x="40" y="295" width="78" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="こうばこ.png" translatesAutoresizingMaskIntoConstraints="NO" id="UtS-ro-ka2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UtS-ro-ka2">
                                 <rect key="frame" x="148" y="295" width="78" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ひまわり.png" translatesAutoresizingMaskIntoConstraints="NO" id="geG-zQ-TQo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="geG-zQ-TQo">
                                 <rect key="frame" x="247" y="295" width="78" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="M.png" translatesAutoresizingMaskIntoConstraints="NO" id="oWd-Cv-tkn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oWd-Cv-tkn">
                                 <rect key="frame" x="247" y="127" width="78" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYN-xA-PAE">
+                                <rect key="frame" x="122" y="499" width="110" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <state key="normal" title="♡">
+                                    <color key="titleColor" red="1" green="0.17576921201430773" blue="0.52566550380226496" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeImage" destination="BYZ-38-t0r" eventType="touchUpInside" id="D90-46-NOp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzk-Kv-mdT">
+                                <rect key="frame" x="135" y="53" width="74" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="oWd-Cv-tkn" id="xWx-2R-1vc"/>
+                        <outlet property="imageView0" destination="PKW-1r-Nec" id="17r-ci-Hfr"/>
+                        <outlet property="imageView1" destination="QNc-hh-hob" id="Uvc-Kt-LfM"/>
+                        <outlet property="imageView2" destination="oWd-Cv-tkn" id="XFQ-aK-cWp"/>
+                        <outlet property="imageView3" destination="Rv2-xT-CLc" id="Tyj-id-jTq"/>
+                        <outlet property="imageView4" destination="UtS-ro-ka2" id="yYC-Xp-Gk2"/>
+                        <outlet property="imageView5" destination="geG-zQ-TQo" id="d1e-2N-Cwj"/>
+                        <outlet property="label" destination="jzk-Kv-mdT" id="hIg-sP-ae2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -57,12 +81,4 @@
             <point key="canvasLocation" x="312.80000000000001" y="6.746626686656672"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="M.png" width="832" height="834"/>
-        <image name="あおむけ.png" width="896" height="974"/>
-        <image name="おねむ.png" width="564" height="434"/>
-        <image name="こうばこ.png" width="1194" height="1196"/>
-        <image name="ひまわり.png" width="556" height="424"/>
-        <image name="みみあて.png" width="1102" height="1006"/>
-    </resources>
 </document>
