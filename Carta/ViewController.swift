@@ -9,60 +9,61 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var images : [String] = ["みみあて.png","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png","M.png"]
     
     @IBOutlet var label: UILabel!
     
-    @IBOutlet var imageView0: UIImageView!
+    @IBOutlet var button0: UIButton!
     
-    @IBOutlet var imageView1: UIImageView!
+    @IBOutlet var button1: UIButton!
     
-    @IBOutlet var imageView2: UIImageView!
+    @IBOutlet var button2: UIButton!
     
-    @IBOutlet var imageView3: UIImageView!
+    @IBOutlet var button3: UIButton!
     
-    @IBOutlet var imageView4: UIImageView!
+    @IBOutlet var button4: UIButton!
     
-    @IBOutlet var imageView5: UIImageView!
+    @IBOutlet var button5: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        imageView0.image = UIImage(named: images[0])
-   
-
-        imageView1.image = UIImage(named: images[1])
+        button0.setBackgroundImage(UIImage(named: images[0]), for: .normal)
         
-        imageView2.image = UIImage(named: images[2])
         
-        imageView3.image = UIImage(named: images[3])
+        button1.setBackgroundImage(UIImage(named: images[1]), for: .normal)
         
-        imageView4.image = UIImage(named: images[4])
+        button2.setBackgroundImage(UIImage(named: images[2]), for: .normal)
+        button3.setBackgroundImage(UIImage(named: images[3]), for: .normal)
+        button4.setBackgroundImage(UIImage(named: images[4]), for: .normal)
         
-        imageView5.image = UIImage(named: images[5])
+        button5.setBackgroundImage(UIImage(named: images[5]), for: .normal)
     }
     
     @IBAction func changeImage () {
-       
-        imageView0.image = UIImage(named:images[Int(arc4random_uniform(UInt32(images.count)))])
-        imageView1.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        imageView2.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        imageView3.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        imageView4.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        imageView5.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
         
-            }
-
+        button0.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
+        button1.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
+        button2.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
+        button3.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
+        
+        button4.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
+        
+        button5.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
+        
+        
+    }
+    
     
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
