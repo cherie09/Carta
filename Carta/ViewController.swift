@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     @IBOutlet var button5: UIButton!
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -42,6 +43,27 @@ class ViewController: UIViewController {
         
         button5.setBackgroundImage(UIImage(named: images[5]), for: .normal)
     }
+    
+    @IBAction func button0Tapped() {
+        print("ボタン0が押されたよ")
+    }
+    @IBAction func button1Tapped() {
+        print("ボタン0が押されたよ")
+    }
+    @IBAction func button2Tapped() {
+        print("ボタン0が押されたよ")
+    }
+    @IBAction func button3Tapped() {
+        print("ボタン0が押されたよ")
+    }
+    @IBAction func button4Tapped() {
+        print("ボタン0が押されたよ")
+    }
+    @IBAction func button5Tapped() {
+        print("ボタン0が押されたよ")
+    }
+    
+    
     
     @IBAction func changeImage () {
         
