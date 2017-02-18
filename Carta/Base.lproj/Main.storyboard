@@ -29,11 +29,11 @@
                                     <color key="titleColor" red="1" green="0.17576921201430773" blue="0.52566550380226496" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeImage" destination="BYZ-38-t0r" eventType="touchUpInside" id="D90-46-NOp"/>
+                                    <action selector="changeQuestion" destination="BYZ-38-t0r" eventType="touchUpInside" id="p30-P6-pks"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzk-Kv-mdT">
-                                <rect key="frame" x="140" y="52" width="74" height="36"/>
+                                <rect key="frame" x="33" y="52" width="316" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <nil key="textColor"/>
@@ -95,7 +95,7 @@
                         <outlet property="button3" destination="tLc-ak-siN" id="QYw-eV-70e"/>
                         <outlet property="button4" destination="Udo-q5-FYO" id="V8c-lH-HyE"/>
                         <outlet property="button5" destination="Nwp-gF-5vW" id="xoR-z3-EmS"/>
-                        <outlet property="label" destination="jzk-Kv-mdT" id="hIg-sP-ae2"/>
+                        <outlet property="questionLabel" destination="jzk-Kv-mdT" id="aYF-cl-XpI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

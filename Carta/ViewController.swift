@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     var images : [String] = ["みみあて.png","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png","M.png"]
     
-    @IBOutlet var label: UILabel!
+    @IBOutlet var questionLabel: UILabel!
     
     @IBOutlet var button0: UIButton!
     
@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var button5: UIButton!
     
+    var questions : [String] = ["みみあて","あおむけ","おねむ","こうばこ","ひまわり","M"]
     
     
     override func viewDidLoad() {
@@ -56,22 +57,29 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button2Tapped() {
-       
+        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        button2.setBackgroundImage(image, for: .normal)
     
     }
     @IBAction func button3Tapped() {
-        print("ボタン0が押されたよ")
+        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        button3.setBackgroundImage(image, for: .normal)
     }
+    
     @IBAction func button4Tapped() {
-        print("ボタン0が押されたよ")
+        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        button4.setBackgroundImage(image, for: .normal)
     }
     @IBAction func button5Tapped() {
-        print("ボタン0が押されたよ")
+        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        button5.setBackgroundImage(image, for: .normal)
     }
     
     
     
-    @IBAction func changeImage () {
+    @IBAction func changeQuestion () {
+        
+        questionLabel.text = questions [Int(arc4random_uniform(UInt32(questions.count)))]
         
         button0.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
         button1.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
