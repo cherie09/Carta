@@ -19,6 +19,11 @@
 		3E5750601E47D41E005B8580 /* こうばこ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505E1E47D41E005B8580 /* こうばこ.png */; };
 		3E5750611E47D41E005B8580 /* ひまわり.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505F1E47D41E005B8580 /* ひまわり.png */; };
 		3EE8CE961E582C700006CE37 /* はなまる.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE8CE951E582C700006CE37 /* はなまる.png */; };
+		3EF36B2D1E58522400A2DE0F /* おくるみ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B2A1E58522400A2DE0F /* おくるみ.png */; };
+		3EF36B2E1E58522400A2DE0F /* ひっぷ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B2B1E58522400A2DE0F /* ひっぷ.png */; };
+		3EF36B2F1E58522400A2DE0F /* おすまし.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B2C1E58522400A2DE0F /* おすまし.png */; };
+		3EF36B321E58529400A2DE0F /* まふらー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B301E58529400A2DE0F /* まふらー.png */; };
+		3EF36B331E58529400A2DE0F /* めがね.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B311E58529400A2DE0F /* めがね.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		3E57505E1E47D41E005B8580 /* こうばこ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "こうばこ.png"; sourceTree = "<group>"; };
 		3E57505F1E47D41E005B8580 /* ひまわり.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ひまわり.png"; sourceTree = "<group>"; };
 		3EE8CE951E582C700006CE37 /* はなまる.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "はなまる.png"; sourceTree = "<group>"; };
+		3EF36B2A1E58522400A2DE0F /* おくるみ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おくるみ.png"; sourceTree = "<group>"; };
+		3EF36B2B1E58522400A2DE0F /* ひっぷ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ひっぷ.png"; sourceTree = "<group>"; };
+		3EF36B2C1E58522400A2DE0F /* おすまし.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おすまし.png"; sourceTree = "<group>"; };
+		3EF36B301E58529400A2DE0F /* まふらー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まふらー.png"; sourceTree = "<group>"; };
+		3EF36B311E58529400A2DE0F /* めがね.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "めがね.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 				3E5750561E478A9D005B8580 /* おねむ.png */,
 				3E5750441E44C944005B8580 /* AppDelegate.swift */,
 				3E5750461E44C944005B8580 /* ViewController.swift */,
+				3EF36B301E58529400A2DE0F /* まふらー.png */,
+				3EF36B311E58529400A2DE0F /* めがね.png */,
+				3EF36B2A1E58522400A2DE0F /* おくるみ.png */,
+				3EF36B2B1E58522400A2DE0F /* ひっぷ.png */,
+				3EF36B2C1E58522400A2DE0F /* おすまし.png */,
 				3EE8CE951E582C700006CE37 /* はなまる.png */,
 				3E5750481E44C944005B8580 /* Main.storyboard */,
 				3E57505E1E47D41E005B8580 /* こうばこ.png */,
@@ -147,11 +162,16 @@
 				3E5750611E47D41E005B8580 /* ひまわり.png in Resources */,
 				3E5750601E47D41E005B8580 /* こうばこ.png in Resources */,
 				3E57505C1E47D0E2005B8580 /* あおむけ.png in Resources */,
+				3EF36B321E58529400A2DE0F /* まふらー.png in Resources */,
+				3EF36B2E1E58522400A2DE0F /* ひっぷ.png in Resources */,
 				3E57504F1E44C944005B8580 /* LaunchScreen.storyboard in Resources */,
 				3E5750571E478A9D005B8580 /* おねむ.png in Resources */,
+				3EF36B2F1E58522400A2DE0F /* おすまし.png in Resources */,
+				3EF36B2D1E58522400A2DE0F /* おくるみ.png in Resources */,
 				3E57505B1E47D0E2005B8580 /* みみあて.png in Resources */,
 				3E57504C1E44C944005B8580 /* Assets.xcassets in Resources */,
 				3EE8CE961E582C700006CE37 /* はなまる.png in Resources */,
+				3EF36B331E58529400A2DE0F /* めがね.png in Resources */,
 				3E57504A1E44C944005B8580 /* Main.storyboard in Resources */,
 				3E57505D1E47D0E2005B8580 /* M.png in Resources */,
 			);
