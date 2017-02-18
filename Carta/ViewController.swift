@@ -28,11 +28,12 @@ class ViewController: UIViewController {
     
     var questions : [String] = ["みみあて","あおむけ","おねむ","こうばこ","ひまわり","M"]
     
+    var answerIndex : Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+    
         button0.setBackgroundImage(UIImage(named: images[0]), for: .normal)
         
         
@@ -45,7 +46,14 @@ class ViewController: UIViewController {
         button5.setBackgroundImage(UIImage(named: images[5]), for: .normal)
     }
     
-    @IBAction func button0Tapped() {
+    @IBAction func button0Tapped(button: UIButton) {
+        if UIImage(named :images[answerIndex]) == button.backgroundImage(for: .normal) {
+        
+            print("正解")
+  
+        } else {
+            print("不正解")
+        }
         
         let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
         button0.setBackgroundImage(image, for: .normal)
@@ -77,9 +85,14 @@ class ViewController: UIViewController {
     
     
     
+    
+    
     @IBAction func changeQuestion () {
         
-        questionLabel.text = questions [Int(arc4random_uniform(UInt32(questions.count)))]
+        answerIndex = Int(arc4random_uniform(UInt32(questions.count)))
+        questionLabel.text = questions[answerIndex]
+        
+
         
         button0.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
         button1.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
@@ -89,6 +102,8 @@ class ViewController: UIViewController {
         button4.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
         
         button5.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
+        
+        
         
         
     }
