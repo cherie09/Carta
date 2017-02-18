@@ -45,13 +45,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button0Tapped() {
-        print("ボタン0が押されたよ")
+        
+        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
+        button0.setBackgroundImage(image, for: .normal)
     }
     @IBAction func button1Tapped() {
-        print("ボタン0が押されたよ")
+        let image = UIImage(named: images[Int (arc4random_uniform(UInt32(images.count)))] )
+        button1.setBackgroundImage(image, for: .normal)
+        
     }
+    
     @IBAction func button2Tapped() {
-        print("ボタン0が押されたよ")
+       
+    
     }
     @IBAction func button3Tapped() {
         print("ボタン0が押されたよ")
