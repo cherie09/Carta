@@ -46,43 +46,18 @@ class ViewController: UIViewController {
         button5.setBackgroundImage(UIImage(named: images[5]), for: .normal)
     }
     
-    @IBAction func button0Tapped(button: UIButton) {
+    @IBAction func buttonTapped(button: UIButton) {
         if UIImage(named :images[answerIndex]) == button.backgroundImage(for: .normal) {
         
-            print("正解")
+            button.setBackgroundImage(UIImage(named: "はなまる.png"), for: .normal)
   
         } else {
             print("不正解")
         }
         
-        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        button0.setBackgroundImage(image, for: .normal)
-    }
-    @IBAction func button1Tapped() {
-        let image = UIImage(named: images[Int (arc4random_uniform(UInt32(images.count)))] )
-        button1.setBackgroundImage(image, for: .normal)
         
     }
-    
-    @IBAction func button2Tapped() {
-        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        button2.setBackgroundImage(image, for: .normal)
-    
-    }
-    @IBAction func button3Tapped() {
-        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        button3.setBackgroundImage(image, for: .normal)
-    }
-    
-    @IBAction func button4Tapped() {
-        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        button4.setBackgroundImage(image, for: .normal)
-    }
-    @IBAction func button5Tapped() {
-        let image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))])
-        button5.setBackgroundImage(image, for: .normal)
-    }
-    
+   
     
     
     

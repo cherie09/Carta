@@ -18,6 +18,7 @@
 		3E57505D1E47D0E2005B8580 /* M.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505A1E47D0E2005B8580 /* M.png */; };
 		3E5750601E47D41E005B8580 /* こうばこ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505E1E47D41E005B8580 /* こうばこ.png */; };
 		3E5750611E47D41E005B8580 /* ひまわり.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E57505F1E47D41E005B8580 /* ひまわり.png */; };
+		3EE8CE961E582C700006CE37 /* はなまる.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE8CE951E582C700006CE37 /* はなまる.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		3E57505A1E47D0E2005B8580 /* M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = M.png; sourceTree = "<group>"; };
 		3E57505E1E47D41E005B8580 /* こうばこ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "こうばこ.png"; sourceTree = "<group>"; };
 		3E57505F1E47D41E005B8580 /* ひまわり.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ひまわり.png"; sourceTree = "<group>"; };
+		3EE8CE951E582C700006CE37 /* はなまる.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "はなまる.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				3E5750561E478A9D005B8580 /* おねむ.png */,
 				3E5750441E44C944005B8580 /* AppDelegate.swift */,
 				3E5750461E44C944005B8580 /* ViewController.swift */,
+				3EE8CE951E582C700006CE37 /* はなまる.png */,
 				3E5750481E44C944005B8580 /* Main.storyboard */,
 				3E57505E1E47D41E005B8580 /* こうばこ.png */,
 				3E57505F1E47D41E005B8580 /* ひまわり.png */,
@@ -148,6 +151,7 @@
 				3E5750571E478A9D005B8580 /* おねむ.png in Resources */,
 				3E57505B1E47D0E2005B8580 /* みみあて.png in Resources */,
 				3E57504C1E44C944005B8580 /* Assets.xcassets in Resources */,
+				3EE8CE961E582C700006CE37 /* はなまる.png in Resources */,
 				3E57504A1E44C944005B8580 /* Main.storyboard in Resources */,
 				3E57505D1E47D0E2005B8580 /* M.png in Resources */,
 			);
@@ -321,6 +325,7 @@
 				3E5750551E44C944005B8580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
