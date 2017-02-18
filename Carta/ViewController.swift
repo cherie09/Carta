@@ -30,57 +30,74 @@ class ViewController: UIViewController {
     
     var answerIndex : Int = 0
     
+    var sixCards : [UIButton]!
+    var sixQuestions : [String] = []
+    var sixImages : [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    
-        button0.setBackgroundImage(UIImage(named: images[0]), for: .normal)
+        
+        sixCards = [button0,button1,button2,button3,button4,button5]
         
         
-        button1.setBackgroundImage(UIImage(named: images[1]), for: .normal)
-        
-        button2.setBackgroundImage(UIImage(named: images[2]), for: .normal)
-        button3.setBackgroundImage(UIImage(named: images[3]), for: .normal)
-        button4.setBackgroundImage(UIImage(named: images[4]), for: .normal)
-        
-        button5.setBackgroundImage(UIImage(named: images[5]), for: .normal)
     }
     
+    
+
     @IBAction func buttonTapped(button: UIButton) {
-        if UIImage(named :images[answerIndex]) == button.backgroundImage(for: .normal) {
-        
+        if UIImage(named :sixImages[answerIndex]) == button.backgroundImage(for: .normal) {
+            
             button.setBackgroundImage(UIImage(named: "はなまる.png"), for: .normal)
-  
+            
+            
+            sixQuestions.remove(at: answerIndex)
+            sixImages.remove(at: answerIndex)
+            
+            if sixQuestions.count == 0 {
+                questionLabel.text = "おつかれさまー！"
+            }else{
+                answerIndex = Int(arc4random_uniform(UInt32(sixQuestions.count)))
+                questionLabel.text = sixQuestions[answerIndex]
+
+            }
+
+            
+            
+            
+            
+            
+
+            
         } else {
             print("不正解")
         }
         
         
     }
-   
     
     
     
-    
-    @IBAction func changeQuestion () {
+    @IBAction func start () {
         
-        answerIndex = Int(arc4random_uniform(UInt32(questions.count)))
-        questionLabel.text = questions[answerIndex]
+        sixQuestions = []
+        sixImages = []
+        
+        var tmpImages = images
+        var tmpQuestions = questions
+        for i in 0..<6 {
+            let random = Int(arc4random_uniform(UInt32(tmpImages.count)))
+            sixCards[i].setBackgroundImage(UIImage(named: tmpImages[random]), for: .normal)
+            sixQuestions.append(tmpQuestions[random])
+            sixImages.append(tmpImages[random])
+            tmpQuestions.remove(at: random)
+            tmpImages.remove(at: random)
+           
+        }
+        
+        answerIndex = Int(arc4random_uniform(UInt32(sixQuestions.count)))
+        questionLabel.text = sixQuestions[answerIndex]
         
 
-        
-        button0.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
-        button1.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
-        button2.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
-        button3.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
-        
-        button4.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
-        
-        button5.setBackgroundImage(UIImage(named: images[Int(arc4random_uniform(UInt32(images.count)))]), for: .normal)
-        
-        
-        
-        
     }
     
     
