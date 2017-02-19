@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var images : [String] = ["みみあて.png","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png","M.png","おくるみ.png","ひっぷ.png","おすまし.png","まふらー.png","めがね.png"]
+    var answers : [String] = ["みみあて.png","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png","M.png","おくるみ.png","ひっぷ.png","おすまし.png","まふらー.png","めがね.png"]
     
     @IBOutlet var questionLabel: UILabel!
     
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     @IBOutlet var button6: UIButton!
     @IBOutlet var button7: UIButton!
     @IBOutlet var button8: UIButton!
-
+    
     
     
     
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     var nineCards : [UIButton]!
     var nineQuestions : [String] = []
-    var nineImages : [String] = []
+    var nineanswers : [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,33 +50,31 @@ class ViewController: UIViewController {
     }
     
     
-
-    @IBAction func buttonTapped(button: UIButton) {
-        if UIImage(named :nineImages[answerIndex]) == button.backgroundImage(for: .normal) {
-            
-            button.setBackgroundImage(UIImage(named: "はなまる.png"), for: .normal)
-            
-            
-            nineQuestions.remove(at: answerIndex)
-            nineImages.remove(at: answerIndex)
-            
-            if nineQuestions.count == 0 {
-                questionLabel.text = "おつかれさまー！"
-            }else{
-                answerIndex = Int(arc4random_uniform(UInt32(nineQuestions.count)))
-                questionLabel.text = nineQuestions[answerIndex]
-
-            }
-
-            
     
-            
-
-            
-        } else {
-            print("不正解")
+    @IBAction func buttonTapped(button: UIButton) {
+        if nineanswers.count != 0{
+            if nineanswers[answerIndex] == button.title(for: .normal) {
+                
+                button.setBackgroundImage(UIImage(named: "はなまる.png"), for: .normal)
+                
+                
+                
+                nineQuestions.remove(at: answerIndex)
+                nineanswers.remove(at: answerIndex)
+                
+                if nineQuestions.count == 0 {
+                    questionLabel.text = "おつかれさまー！"
+                }else{
+                    answerIndex = Int(arc4random_uniform(UInt32(nineQuestions.count)))
+                    questionLabel.text = nineQuestions[answerIndex]
+                    
+                }
+                
+                
+            } else {
+                print("不正解")
+            }
         }
-        
         
     }
     
@@ -85,24 +83,24 @@ class ViewController: UIViewController {
     @IBAction func start () {
         
         nineQuestions = []
-        nineImages = []
+        nineanswers = []
         
-        var tmpImages = images
+        var tmpAnswers = answers
         var tmpQuestions = questions
         for i in 0..<9 {
-            let random = Int(arc4random_uniform(UInt32(tmpImages.count)))
-            nineCards[i].setBackgroundImage(UIImage(named: tmpImages[random]), for: .normal)
+            let random = Int(arc4random_uniform(UInt32(tmpAnswers.count)))
+            nineCards[i].setTitle(tmpAnswers[random], for: .normal)
+            nineCards[i].setBackgroundImage(nil, for: .normal)
             nineQuestions.append(tmpQuestions[random])
-            nineImages.append(tmpImages[random])
+            nineanswers.append(tmpAnswers[random])
             tmpQuestions.remove(at: random)
-            tmpImages.remove(at: random)
-           
+            tmpAnswers.remove(at: random)
+            
         }
         
         answerIndex = Int(arc4random_uniform(UInt32(nineQuestions.count)))
         questionLabel.text = nineQuestions[answerIndex]
         
-
     }
     
     

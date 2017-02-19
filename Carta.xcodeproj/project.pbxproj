@@ -24,6 +24,7 @@
 		3EF36B2F1E58522400A2DE0F /* おすまし.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B2C1E58522400A2DE0F /* おすまし.png */; };
 		3EF36B321E58529400A2DE0F /* まふらー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B301E58529400A2DE0F /* まふらー.png */; };
 		3EF36B331E58529400A2DE0F /* めがね.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF36B311E58529400A2DE0F /* めがね.png */; };
+		3EFE01071E59C8AD00B72CC3 /* dfcry7.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3EFE01061E59C89600B72CC3 /* dfcry7.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		3EF36B2C1E58522400A2DE0F /* おすまし.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おすまし.png"; sourceTree = "<group>"; };
 		3EF36B301E58529400A2DE0F /* まふらー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まふらー.png"; sourceTree = "<group>"; };
 		3EF36B311E58529400A2DE0F /* めがね.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "めがね.png"; sourceTree = "<group>"; };
+		3EFE01061E59C89600B72CC3 /* dfcry7.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dfcry7.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				3E5750561E478A9D005B8580 /* おねむ.png */,
+				3EFE01061E59C89600B72CC3 /* dfcry7.ttc */,
 				3E5750441E44C944005B8580 /* AppDelegate.swift */,
 				3E5750461E44C944005B8580 /* ViewController.swift */,
 				3EF36B301E58529400A2DE0F /* まふらー.png */,
@@ -159,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFE01071E59C8AD00B72CC3 /* dfcry7.ttc in Resources */,
 				3E5750611E47D41E005B8580 /* ひまわり.png in Resources */,
 				3E5750601E47D41E005B8580 /* こうばこ.png in Resources */,
 				3E57505C1E47D0E2005B8580 /* あおむけ.png in Resources */,
