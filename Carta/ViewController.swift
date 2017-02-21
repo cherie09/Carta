@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var answers : [String] = ["みみあて.png","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png","M.png","おくるみ.png","ひっぷ.png","おすまし.png","まふらー.png","めがね.png"]
+    var answers : [String] = ["title","あおむけ.png","おねむ.png","こうばこ.png","ひまわり.png","M.png","おくるみ.png","ひっぷ.png","おすまし.png","まふらー.png","めがね.png"]
     
     @IBOutlet var questionLabel: UILabel!
     
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     
     
     
-    var questions : [String] = ["みみあて","あおむけ","おねむ","こうばこ","ひまわり","M","おくるみ","ひっぷ","おすまし","まふらー","めがね"]
+    var questions : [String] = ["ページ自体の題名のタグ","あおむけ","おねむ","こうばこ","ひまわり","M","おくるみ","ひっぷ","おすまし","まふらー","めがね"]
     
     var answerIndex : Int = 0
     
