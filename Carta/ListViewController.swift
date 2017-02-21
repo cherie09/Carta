@@ -44,10 +44,29 @@ class ListViewController: UIViewController,UICollectionViewDelegate,UICollection
         let label = cell?.viewWithTag(1) as! UILabel
         
         if label.text == answers[indexPath.row] {
-            label.text = questions[indexPath.row]
+            
+            UIView.animate(withDuration: 0.5, delay: 0, options: .allowUserInteraction, animations: {
+                
+                UIView.transition(with: (cell?.contentView)!, duration: 2, options: .transitionFlipFromRight, animations: {
+                    
+                    label.text = self.questions[indexPath.row]
+                }, completion: nil)
+                
+            }, completion: nil)
+            
             
         }else if label.text == questions[indexPath.row]{
-            label.text = answers[indexPath.row]
+            UIView.animate(withDuration: 0.5, delay: 0, options: .allowUserInteraction, animations: {
+                
+                UIView.transition(with: (cell?.contentView)!, duration: 2, options: .transitionFlipFromLeft, animations: {
+                    
+                    label.text = self.answers[indexPath.row]
+                }, completion: nil)
+                
+            }, completion: nil)
+            
+
+            
         }
         
         
