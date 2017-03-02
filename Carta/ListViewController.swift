@@ -12,9 +12,12 @@ class ListViewController: UIViewController,UICollectionViewDelegate,UICollection
     
     @IBOutlet var collectionView: UICollectionView!
     
-    var questions : [String] = ["ページ自体の題名のタグ","コンテンツのヘッダー情報をまとめるタグ","文章内の改行タグ","見出しのタグ1","写真や画像のタグ","M","おくるみ","ひっぷ","おすまし","まふらー","めがね"]
+    var questions : [String] = ["ページ自体の題名のタグ","コンテンツのヘッダー情報をまとめるタグ","文章内の改行タグ","見出しのタグ1","写真や画像のタグ","ブラウザに表示する内容全体のタグ","主にcssをページ内に書き込むタグ","文章内の重要性の高いテキストのタグ","特定の意味を持たないブロックのタグ","ページ自体のメタ情報のタグ","表"]
+
     
-    var answers : [String] = ["title","header","br","h1","img","M.png","おくるみ.png","ひっぷ.png","おすまし.png","まふらー.png","めがね.png"]
+    var answers : [String] = ["title","header","br","h1","img","body","style","strong","div","meta","table"]
+    
+    
     
     @IBAction func back (){
         //戻る

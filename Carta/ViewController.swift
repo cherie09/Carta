@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var answers : [String] = ["title","header","br","h1","img","M.png","おくるみ.png","ひっぷ.png","おすまし.png","まふらー.png","めがね.png"]
+    var answers : [String] = ["title","header","br","h1","img","body","style","strong","div","meta","table"]
     
     @IBOutlet var questionLabel: UILabel!
     
@@ -35,7 +35,9 @@ class ViewController: UIViewController {
     }
     
     
-    var questions : [String] = ["ページ自体の題名のタグ","コンテンツのヘッダー情報をまとめるタグ","文章内の改行タグ","見出しのタグ1","写真や画像のタグ","M","おくるみ","ひっぷ","おすまし","まふらー","めがね"]
+    
+    
+    var questions : [String] = ["題名のタグ","ヘッダー情報をまとめるタグ","改行タグ","見出しタグ1","写真や画像タグ","ブラウザに表示する内容全体のタグ","主にcssを書き込むタグ","重要性高いテキストのタグ","特定の意味を持たないブロックのタグ","メタ情報のタグ","表"]
     
     var answerIndex : Int = 0
     

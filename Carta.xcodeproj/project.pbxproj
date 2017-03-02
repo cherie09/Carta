@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4493871E68621200A87DD1 /* グラデ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4493861E68621200A87DD1 /* グラデ.png */; };
+		3E4493891E68639A00A87DD1 /* マーブル1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E4493881E68639A00A87DD1 /* マーブル1.jpg */; };
+		3E44938B1E6864A600A87DD1 /* 三色.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E44938A1E6864A600A87DD1 /* 三色.png */; };
+		3E44938D1E68675200A87DD1 /* Kokoro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E44938C1E68675200A87DD1 /* Kokoro.otf */; };
+		3E44938F1E686DC600A87DD1 /* まつ.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E44938E1E686DC600A87DD1 /* まつ.png */; };
+		3E4493911E6877C300A87DD1 /* Hannari.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E4493901E6877C300A87DD1 /* Hannari.otf */; };
+		3E4493931E6877D400A87DD1 /* planetarium.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3E4493921E6877D400A87DD1 /* planetarium.zip */; };
+		3E4493951E6879EA00A87DD1 /* NexaRustSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E4493941E6879EA00A87DD1 /* NexaRustSans-Black.otf */; };
+		3E4493971E6879FA00A87DD1 /* NexaRustExtras-Free.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E4493961E6879FA00A87DD1 /* NexaRustExtras-Free.otf */; };
+		3E4493991E687A2900A87DD1 /* NexaRustScriptL-0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E4493981E687A2900A87DD1 /* NexaRustScriptL-0.otf */; };
+		3E44939B1E687A5200A87DD1 /* NexaRustHandmade-Extended.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E44939A1E687A5200A87DD1 /* NexaRustHandmade-Extended.otf */; };
+		3E4493A01E687FF200A87DD1 /* FruitSale.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E44939D1E687FF200A87DD1 /* FruitSale.ttf */; };
+		3E4493A11E687FF200A87DD1 /* READ ME www.seancoady.ca.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E44939E1E687FF200A87DD1 /* READ ME www.seancoady.ca.txt */; };
+		3E4493A21E687FF200A87DD1 /* SRC DESIGNS.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E44939F1E687FF200A87DD1 /* SRC DESIGNS.png */; };
 		3E5750451E44C944005B8580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5750441E44C944005B8580 /* AppDelegate.swift */; };
 		3E5750471E44C944005B8580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5750461E44C944005B8580 /* ViewController.swift */; };
 		3E57504A1E44C944005B8580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5750481E44C944005B8580 /* Main.storyboard */; };
@@ -30,6 +44,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E4493861E68621200A87DD1 /* グラデ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "グラデ.png"; sourceTree = "<group>"; };
+		3E4493881E68639A00A87DD1 /* マーブル1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "マーブル1.jpg"; sourceTree = "<group>"; };
+		3E44938A1E6864A600A87DD1 /* 三色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "三色.png"; sourceTree = "<group>"; };
+		3E44938C1E68675200A87DD1 /* Kokoro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kokoro.otf; sourceTree = "<group>"; };
+		3E44938E1E686DC600A87DD1 /* まつ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まつ.png"; sourceTree = "<group>"; };
+		3E4493901E6877C300A87DD1 /* Hannari.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hannari.otf; sourceTree = "<group>"; };
+		3E4493921E6877D400A87DD1 /* planetarium.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = planetarium.zip; sourceTree = "<group>"; };
+		3E4493941E6879EA00A87DD1 /* NexaRustSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaRustSans-Black.otf"; sourceTree = "<group>"; };
+		3E4493961E6879FA00A87DD1 /* NexaRustExtras-Free.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaRustExtras-Free.otf"; sourceTree = "<group>"; };
+		3E4493981E687A2900A87DD1 /* NexaRustScriptL-0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaRustScriptL-0.otf"; sourceTree = "<group>"; };
+		3E44939A1E687A5200A87DD1 /* NexaRustHandmade-Extended.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NexaRustHandmade-Extended.otf"; sourceTree = "<group>"; };
+		3E44939D1E687FF200A87DD1 /* FruitSale.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FruitSale.ttf; sourceTree = "<group>"; };
+		3E44939E1E687FF200A87DD1 /* READ ME www.seancoady.ca.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "READ ME www.seancoady.ca.txt"; sourceTree = "<group>"; };
+		3E44939F1E687FF200A87DD1 /* SRC DESIGNS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRC DESIGNS.png"; sourceTree = "<group>"; };
 		3E5750411E44C944005B8580 /* Carta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5750441E44C944005B8580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E5750461E44C944005B8580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,9 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E44939C1E687FF200A87DD1 /* fruit_sale */ = {
+			isa = PBXGroup;
+			children = (
+				3E44939D1E687FF200A87DD1 /* FruitSale.ttf */,
+				3E44939E1E687FF200A87DD1 /* READ ME www.seancoady.ca.txt */,
+				3E44939F1E687FF200A87DD1 /* SRC DESIGNS.png */,
+			);
+			path = fruit_sale;
+			sourceTree = "<group>";
+		};
 		3E5750381E44C943005B8580 = {
 			isa = PBXGroup;
 			children = (
+				3E44938C1E68675200A87DD1 /* Kokoro.otf */,
+				3E44938A1E6864A600A87DD1 /* 三色.png */,
+				3E4493881E68639A00A87DD1 /* マーブル1.jpg */,
+				3E4493861E68621200A87DD1 /* グラデ.png */,
 				3E5750581E47D0E2005B8580 /* みみあて.png */,
 				3E5750591E47D0E2005B8580 /* あおむけ.png */,
 				3E57505A1E47D0E2005B8580 /* M.png */,
@@ -94,6 +136,14 @@
 				3E6CE4A91E5C784600665020 /* ListViewController.swift */,
 				3E6CE4A71E5C783200665020 /* StartViewController.swift */,
 				3E5750481E44C944005B8580 /* Main.storyboard */,
+				3E44939C1E687FF200A87DD1 /* fruit_sale */,
+				3E44939A1E687A5200A87DD1 /* NexaRustHandmade-Extended.otf */,
+				3E4493981E687A2900A87DD1 /* NexaRustScriptL-0.otf */,
+				3E4493961E6879FA00A87DD1 /* NexaRustExtras-Free.otf */,
+				3E4493941E6879EA00A87DD1 /* NexaRustSans-Black.otf */,
+				3E4493921E6877D400A87DD1 /* planetarium.zip */,
+				3E4493901E6877C300A87DD1 /* Hannari.otf */,
+				3E44938E1E686DC600A87DD1 /* まつ.png */,
 				3EF36B301E58529400A2DE0F /* まふらー.png */,
 				3EF36B311E58529400A2DE0F /* めがね.png */,
 				3EF36B2A1E58522400A2DE0F /* おくるみ.png */,
@@ -169,20 +219,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EFE01071E59C8AD00B72CC3 /* dfcry7.ttc in Resources */,
+				3E44938F1E686DC600A87DD1 /* まつ.png in Resources */,
 				3E5750611E47D41E005B8580 /* ひまわり.png in Resources */,
 				3E5750601E47D41E005B8580 /* こうばこ.png in Resources */,
 				3E57505C1E47D0E2005B8580 /* あおむけ.png in Resources */,
+				3E4493911E6877C300A87DD1 /* Hannari.otf in Resources */,
+				3E4493931E6877D400A87DD1 /* planetarium.zip in Resources */,
 				3EF36B321E58529400A2DE0F /* まふらー.png in Resources */,
 				3EF36B2E1E58522400A2DE0F /* ひっぷ.png in Resources */,
+				3E44938D1E68675200A87DD1 /* Kokoro.otf in Resources */,
 				3E57504F1E44C944005B8580 /* LaunchScreen.storyboard in Resources */,
+				3E44938B1E6864A600A87DD1 /* 三色.png in Resources */,
 				3E5750571E478A9D005B8580 /* おねむ.png in Resources */,
+				3E4493871E68621200A87DD1 /* グラデ.png in Resources */,
+				3E44939B1E687A5200A87DD1 /* NexaRustHandmade-Extended.otf in Resources */,
 				3EF36B2F1E58522400A2DE0F /* おすまし.png in Resources */,
 				3EF36B2D1E58522400A2DE0F /* おくるみ.png in Resources */,
+				3E4493A21E687FF200A87DD1 /* SRC DESIGNS.png in Resources */,
 				3E57505B1E47D0E2005B8580 /* みみあて.png in Resources */,
 				3E57504C1E44C944005B8580 /* Assets.xcassets in Resources */,
+				3E4493891E68639A00A87DD1 /* マーブル1.jpg in Resources */,
 				3EE8CE961E582C700006CE37 /* はなまる.png in Resources */,
 				3EF36B331E58529400A2DE0F /* めがね.png in Resources */,
 				3E57504A1E44C944005B8580 /* Main.storyboard in Resources */,
+				3E4493991E687A2900A87DD1 /* NexaRustScriptL-0.otf in Resources */,
+				3E4493A11E687FF200A87DD1 /* READ ME www.seancoady.ca.txt in Resources */,
+				3E4493A01E687FF200A87DD1 /* FruitSale.ttf in Resources */,
+				3E4493971E6879FA00A87DD1 /* NexaRustExtras-Free.otf in Resources */,
+				3E4493951E6879EA00A87DD1 /* NexaRustSans-Black.otf in Resources */,
 				3E57505D1E47D0E2005B8580 /* M.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
