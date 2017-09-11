@@ -12,10 +12,10 @@ class ListViewController: UIViewController,UICollectionViewDelegate,UICollection
     
     @IBOutlet var collectionView: UICollectionView!
     
-    var questions : [String] = ["ページ自体の題名のタグ","コンテンツのヘッダー情報をまとめるタグ","文章内の改行タグ","見出しのタグ1","写真や画像のタグ","ブラウザに表示する内容全体のタグ","主にcssをページ内に書き込むタグ","文章内の重要性の高いテキストのタグ","特定の意味を持たないブロックのタグ","ページ自体のメタ情報のタグ","表"]
+    var questions : [String] = ["ページ自体の題名のタグ","コンテンツのヘッダー情報をまとめるタグ","文章内の改行タグ","見出しのタグ1","写真や画像のタグ","ブラウザに表示する内容全体のタグ","主にcssをページ内に書き込むタグ","文章内の重要性の高いテキストのタグ","特定の意味を持たないブロックのタグ","ページ自体のメタ情報のタグ","表","テキストや画像に埋め込むリンクのタグ","外部ファイルとのリンクのタグ","主にJava scriptを埋め込むタグ","図表や画像など本文を補足するコンテンツ","コンテンツの作者の連絡先タグ","フッター情報をまとめるタグ","記事のようなセクションのタグ"]
 
     
-    var answers : [String] = ["title","header","br","h1","img","body","style","strong","div","meta","table"]
+    var answers : [String] = ["title","header","br","h1","img","body","style","strong","div","meta","table","a","link","script","figure","address","footer","article"]
     
     
     

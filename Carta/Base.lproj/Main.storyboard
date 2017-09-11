@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="udt-aD-uTZ">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="udt-aD-uTZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -27,7 +27,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="まつ.png" translatesAutoresizingMaskIntoConstraints="NO" id="31K-3e-La3">
-                                <rect key="frame" x="259" y="541" width="106" height="106"/>
+                                <rect key="frame" x="268" y="562" width="86" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYN-xA-PAE">
@@ -42,95 +42,122 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="問題" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="jzk-Kv-mdT">
-                                <rect key="frame" x="29" y="28" width="316" height="60"/>
+                                <rect key="frame" x="29" y="63" width="316" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ene-NR-jEl">
-                                <rect key="frame" x="137" y="115" width="100" height="130"/>
+                                <rect key="frame" x="137" y="135" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAw-Mv-WNZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnx-bb-58q">
-                                <rect key="frame" x="254" y="115" width="100" height="130"/>
+                                <rect key="frame" x="254" y="135" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OzA-i4-Lcl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLc-ak-siN">
-                                <rect key="frame" x="20" y="265" width="100" height="130"/>
+                                <rect key="frame" x="20" y="285" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JS0-rO-Zzm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vyh-8c-EDV">
-                                <rect key="frame" x="20" y="415" width="100" height="130"/>
+                                <rect key="frame" x="20" y="435" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P5f-IV-WB6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCy-aN-8DQ">
-                                <rect key="frame" x="137" y="415" width="100" height="130"/>
+                                <rect key="frame" x="137" y="435" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbp-zo-Flb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udo-q5-FYO">
-                                <rect key="frame" x="137" y="265" width="100" height="130"/>
+                                <rect key="frame" x="137" y="285" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g3M-E1-8uj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwp-gF-5vW">
-                                <rect key="frame" x="254" y="265" width="100" height="130"/>
+                                <rect key="frame" x="254" y="285" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nXY-iJ-coK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLO-iD-PIx">
-                                <rect key="frame" x="20" y="115" width="100" height="130"/>
+                                <rect key="frame" x="25" y="135" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325698080274" green="0.84948325698080274" blue="0.84948325698080274" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ci9-qe-mnU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXh-ev-w06">
-                                <rect key="frame" x="254" y="415" width="100" height="130"/>
+                                <rect key="frame" x="254" y="435" width="100" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84948325700000005" green="0.84948325700000005" blue="0.84948325700000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="24"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTappedWithButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qb0-I2-J80"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeF-p8-LcA">
-                                <rect key="frame" x="244" y="613" width="121" height="54"/>
+                                <rect key="frame" x="244" y="622" width="121" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="21"/>
                                 <state key="normal" title="もどる">
@@ -140,6 +167,14 @@
                                     <action selector="back" destination="BYZ-38-t0r" eventType="touchUpInside" id="g60-68-NBU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GY-wP-72W">
+                                <rect key="frame" x="137" y="23" width="100" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77647717987215903" green="0.91529074014849399" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -154,11 +189,12 @@
                         <outlet property="button7" destination="VCy-aN-8DQ" id="n3z-Ol-X2t"/>
                         <outlet property="button8" destination="yXh-ev-w06" id="wPh-Rn-E06"/>
                         <outlet property="questionLabel" destination="jzk-Kv-mdT" id="aYF-cl-XpI"/>
+                        <outlet property="timelabel" destination="7GY-wP-72W" id="NNe-MH-1mV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064.8" y="-47.226386806596707"/>
+            <point key="canvasLocation" x="1020" y="-32.833583208395808"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="ivz-TW-Per">
@@ -226,7 +262,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dp8-Ff-ruj">
-                                <rect key="frame" x="0.0" y="56" width="375" height="611"/>
+                                <rect key="frame" x="16" y="56" width="343" height="611"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Q4I-Tu-MEY">
@@ -257,7 +293,7 @@
                                 </cells>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPg-xe-e0m">
-                                <rect key="frame" x="9" y="8" width="52" height="30"/>
+                                <rect key="frame" x="9" y="14" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KokoroMinchoutai" family="KokoroMinchoutai" pointSize="17"/>
                                 <state key="normal" title="もどる">
@@ -268,7 +304,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="まつ.png" translatesAutoresizingMaskIntoConstraints="NO" id="JlF-GN-7ck">
-                                <rect key="frame" x="56" y="-14" width="64" height="62"/>
+                                <rect key="frame" x="56" y="-7" width="64" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>

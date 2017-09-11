@@ -9,8 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var timelabel : UILabel!
+    var count : Float = 0.0
+    var timer : Timer = Timer ()
     
-    var answers : [String] = ["title","header","br","h1","img","body","style","strong","div","meta","table"]
+    var answers : [String] = ["title","header","br","h1","img","body","style","strong","div","meta","table","a","link","script","figure","address","footer","article"]
     
     @IBOutlet var questionLabel: UILabel!
     
@@ -37,7 +40,7 @@ class ViewController: UIViewController {
     
     
     
-    var questions : [String] = ["題名のタグ","ヘッダー情報をまとめるタグ","改行タグ","見出しタグ1","写真や画像タグ","ブラウザに表示する内容全体のタグ","主にcssを書き込むタグ","重要性高いテキストのタグ","特定の意味を持たないブロックのタグ","メタ情報のタグ","表"]
+    var questions : [String] = ["題名のタグ","ヘッダー情報をまとめるタグ","改行タグ","見出しタグ1","写真や画像タグ","ブラウザに表示する内容全体のタグ","主にcssを書き込むタグ","重要性高いテキストのタグ","特定の意味を持たないブロックのタグ","メタ情報のタグ","表","テキストや画像に埋め込むリンクのタグ","外部ファイルとのリンクのタグ","主にJava scriptを埋め込むタグ","図表や画像など本文を補足するコンテンツ","コンテンツの作者の連絡先タグ","フッター情報をまとめるタグ","記事のようなセクションのタグ"]
     
     var answerIndex : Int = 0
     
@@ -52,6 +55,8 @@ class ViewController: UIViewController {
         
         
     }
+    
+
     
     
     
@@ -68,6 +73,15 @@ class ViewController: UIViewController {
                 
                 if nineQuestions.count == 0 {
                     questionLabel.text = "おつかれさまー！"
+                    
+                    if timer.isValid{
+                        timer.invalidate()
+                        
+                    }
+                    
+                    
+                    
+                    
                 }else{
                     answerIndex = Int(arc4random_uniform(UInt32(nineQuestions.count)))
                     questionLabel.text = nineQuestions[answerIndex]
@@ -77,11 +91,16 @@ class ViewController: UIViewController {
                 
             } else {
                 print("不正解")
+                count = count+3
+                
             }
         }
         
     }
     
+    
+    
+
     
     
     @IBAction func start () {
@@ -105,7 +124,31 @@ class ViewController: UIViewController {
         answerIndex = Int(arc4random_uniform(UInt32(nineQuestions.count)))
         questionLabel.text = nineQuestions[answerIndex]
         
+       
+        count = 0
+    
+            if !timer.isValid {
+                
+                timer = Timer.scheduledTimer(
+                    timeInterval: 0.01,
+                    target: self,
+                    selector: #selector(self.up),
+                    userInfo: nil,
+                    repeats: true
+                )
+            }
+        
+
     }
+    
+    func up (){
+        count = count + 0.01
+        
+        timelabel.text = String (format: "%.2f",  count)
+        
+        
+    }
+    
     
     
     
